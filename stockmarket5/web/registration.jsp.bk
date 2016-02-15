@@ -1,0 +1,110 @@
+<%-- 
+    Document   : registration
+    Created on : 30 Sep, 2015, 11:22:43 AM
+    Author     : Bhavin
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <title>Stock Market Trading Simulator</title>
+    </head>
+    <body class="">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+        
+        
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="panel panel-default" style="margin-top: 10px">
+                    <div class="panel-heading" >
+                    <h3 class="panel-title">New User Registration</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" action="userRegistrationServlet" method="post" >
+                            <div class="form-group">
+                                <label for="inputfn" class="col-sm-2 control-label" >First Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="inputfn" placeholder="First Name" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputln" class="col-sm-2 control-label">Last Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="inputln" placeholder="Last Name" required>
+                                </div>
+                            </div>
+       
+                            <div class="form-group">
+                                <label for="bdate" class="col-sm-2 control-label">Date of birth </label>
+                                <div class="col-sm-10">
+                                    <input type="date" class="form-control" name="bdate" >
+                                </div>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label for="country" class="col-sm-2 control-label">Country</label>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="country" placeholder="Country" required>
+                                </div>
+                                <label for="state" class="col-sm-2 control-label">State</label>
+                                
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" name="state" placeholder="State" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="city" class="col-sm-2 control-label">City </label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="city" placeholder="city" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactno" class="col-sm-2 control-label">Contact Number</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="contactno" placeholder="+XX XXX XXXX" required>
+                                </div>
+                            </div>
+                                                        
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" name="inputEmail" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="inputPassword" placeholder="Password" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="confirmPassword" class="col-sm-2 control-label">Retype Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="confirmPassword" placeholder="Retype Password" required>
+                                </div>
+                            </div> 
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10">
+                                    <button type="submit" class="btn btn-primary">Register</button>
+                                    <button type="button" class="btn btn-info">Back to Login</button>
+                            
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+          
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,74 @@
+
+.yui-skin-sam #searchQuotes .yui-ac-input,.yui-skin-sam #currency-fr-panel .yui-ac-input{position:static;width:auto;}
+.yui-skin-sam #yfi-doc .yui-ac-input{position:static;}
+.yom-mod:after,.yom-mod .hd:after,.yom-mod .nav:after,.yom-mod .media:after,.yom-mod .content:after,.yom-mod .wrap:after,.yom-mod .bd:after,.yom-mod .ft:after,.yom-mod .nav ul:after,.yom-list:after,.yom-button-list:after,.clearfix:after{clear:both;}
+#searchQuotes .yfi_signpost{position:absolute;left:-9999em;}
+#searchQuotes form{float:left;zoom:1;}
+#searchQuotes form:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#searchQuotes label{position:absolute;left:-9999em;}
+
+#yfi_quotes_submit{float:left;text-decoration:none;text-align:center;cursor:pointer;display:-moz-inline-grid;display:inline-block;}
+#yfi_quotes_submit span{display:block;*display:inline-block;}
+#yfi_quotes_submit span span{margin-right:-9px;position:relative;top:-8px;}
+#yfi_quotes_submit span span span{position:static;margin-right:9px;padding-top:2px;white-space:nowrap;}
+#yfi_quotes_submit input{border:0;font-weight:bold;font-size:85%;margin-left:8px;text-transform:uppercase;vertical-align:middle;position:relative;top:.25em;*width:auto;*overflow:visible;*padding-left:8px;*margin-left:0;}
+#searchQuotes .ft{zoom:1;padding-bottom:1px;}
+#searchQuotes .ft:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+#searchQuotes .ft a{float:left;font-size:92%;line-height:27px;text-decoration:none;margin-left:20px;}
+#searchQuotes .ft a:hover{text-decoration:underline;}
+#searchQuotes .ft p{float:right;line-height:1em;margin:0;}
+#searchQuotes .ft #yfs_market_time{font-size:85%;line-height:27px;padding-right:10px;}
+
+.yui-content .yui-hidden{position:absolute;left:-999999px;visibility:hidden;_display:none;}
+.yui-skin-sam #searchQuotes .yui-ac-input,.yui-skin-sam #currency-fr-panel .yui-ac-input{position:static;width:auto;}
+.yui-skin-sam #yfi-doc .yui-ac-input{position:static;}
+em,cite{font-style:normal;font-weight:normal;}
+#quoteContainer .yui-ac-content{z-index:1;}
+#quoteContainer iframe{left:0;}
+.yui-skin-sam #quoteContainer .yui-ac-content li.yui-ac-highlight{color:#000;}
+.yui-skin-sam .container-close{background:transparent url(http://yui.yahooapis.com/2.8.0/build/assets/skins/sam/sprite.png) no-repeat scroll 0 -300px;}
+#symlookupLink{cursor:pointer;}
+#quoteContainer,.yfi-quote-container{position:absolute;z-index:9050;}
+#quoteContainer .yui-ac-content,.yfi-quote-container .yui-ac-content{position:absolute;left:0;top:0;width:50em;border:1px solid #9C9C9C;background:#fefefe;overflow:hidden;text-align:left;padding:.5em;font-size:92%;z-index:1;}
+#quoteContainer .yui-ac-ft,.yfi-quote-container .yui-ac-ft{font-family:Verdana,sans-serif;font-size:92%;}
+#quoteContainer .yui-ac-ft .moreresults,.yfi-quote-container .yui-ac-ft .moreresults{padding-left:0.3em;}
+#quoteContainer .yui-ac-ft .tip,.yfi-quote-container .yui-ac-ft .tip{border-top:1px solid #D6D6D6;color:#636363;padding:0.5em 0 0 0.4em;margin-top:.25em;}
+#quoteContainer em,.yfi-quote-container em{font-weight:bold;font-style:normal;}
+#quoteContainer .yui-ac-ft .tip a,.yfi-quote-container .yui-ac-ft .tip a{padding-left:0.3em;}
+#quoteContainer .yui-ac-ft a,.yfi-quote-container .yui-ac-ft a{color:#039;text-decoration:none;}
+#quoteContainer ul,.yfi-quote-container ul{margin:0;padding-bottom:.4em;padding:0.38em 0;width:100%;}
+#quoteContainer li,.yfi-quote-container li{padding:0.15em 0.38em;_width:100%;cursor:default;white-space:nowrap;list-style:none;vertical-align:bottom;margin:0;position:relative;}
+#quoteContainer li.yui-ac-highlight,.yfi-quote-container li.yui-ac-highlight{background:#D6F7FF;cursor:pointer;}
+#quoteContainer li .name,.yfi-quote-container li .name{display:inline-block;left:0;width:25em;overflow:hidden;position:relative;}
+#quoteContainer li .exch_type_wrapper,.yfi-quote-container li .exch_type_wrapper{color:#aaa;height:auto;text-align:right;font-size:92%;_font-size:72%;position:absolute;right:0;}
+#quoteContainer li .symbol,.yfi-quote-container li .symbol{width:8.5em;display:inline-block;margin:0 1em 0 0;overflow:hidden;}
+#quoteContainer li .wkn_wrapper,#quoteContainer li .isin_wrapper,.yfi-quote-container li .wkn_wrapper,.yfi-quote-container li .isin_wrapper{width:10em;font-size:92%;_font-size:72%;height:auto;text-align:right;}
+#searchQuotes{padding:5px;}
+
+#yfi_quotes_submit{margin:0 0 0 4px;vertical-align:top;padding:0;}
+#yfi_quotes_submit span{display:inlne;margin:0;padding:0;}
+#yfi_quotes_submit span span{margin:0;padding:0;position:relative;top:0;}
+#yfi_quotes_submit span span span{position:relative;margin:0;padding:0;;white-space:nowrap;}
+#yfi_quotes_submit input{border-width:1px;border-style:solid;border-radius:3px;cursor:pointer;padding:0;font-weight:bold;vertical-align:top;font-size:12.8px;text-transform:capitalize;margin:0;top:0;height:1.98em;padding:0 12px;}
+#searchQuotes .ft{padding:0;}
+#searchQuotes .ft p{height:25px;}
+#searchQuotes .ft a{font-size:12px!important;line-height:24px;padding-top:3px;}
+#searchQuotes .ft a:hover{text-decoration:none;}
+#searchQuotes .ft p{font-size:99%;}
+#searchQuotes .ft #yfs_market_time{padding-right:15px;font-size:11.05px;line-height:25px;}
+#yfs_market_time b{font-weight:normal;}
+.y-nav-legobg{border-width:1px;border-style:solid;zoom:1;}
+.y-nav-pri-legobg{*zoom:1!important;}
+.y-nav-sub-legobg{border:medium none;}
+#yfs_wthis,#yfs_bar,#yfi_streaming_quotes{display:none;}
+#yfsbar #yfs_wthis{display:block;}
+#yfi-doc,#yfi_doc,#y-page .y-fin-wrapper{border:none;}
+#searchQuotes input#txtQuotes{color:#000;border-color:#ccc;}
+#yfi_quotes_submit{background:none;}
+#yfi_quotes_submit span{background:none;}
+#yfi_quotes_submit span span{background:none;}
+#yfi_quotes_submit span span span{background:none;}
+#yfi_quotes_submit input{background-color:#f8d44c;background-image:-moz-linear-gradient(center top,#FFF39C,#FEE474 50%,#FDD14C 50%,#FCC42E);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.00,#FCC42E),color-stop(0.50,#FDD14C),color-stop(0.50,#FEE474),color-stop(1.00,#FFF39C) );border-color:#BD9208;}
+#searchQuotes .ft a{color:#005790;}
+#searchQuotes .ft a:hover{color:#f90;}
+#searchQuotes .ft p{color:#999;}
